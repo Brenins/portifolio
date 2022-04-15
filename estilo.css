@@ -56,7 +56,7 @@ body{
 
 .main{
     max-width: auto;
-    height: 60vh;
+    height: 50vh;
     
     display: flex;
     justify-content: center;
@@ -97,10 +97,10 @@ body{
 
 .sobre{
     max-width: auto;
-    height: 500px;
-    background-color: #4D2034;
+    height: 550px;
+    background-color: #15162A;
     display: flex;
-    align-items:flex-start;
+    align-items:start;
     justify-content: center;
 }
 
@@ -110,16 +110,15 @@ body{
 
 .container-sobre{
     width: 800px;
-    height: 40vh;
+    height: 300px;
     color: white;
 }
 
 
 .projetos{
     max-width: auto;
-    max-height: auto;
-    background: rgb(224,80,69);
-    background: radial-gradient(circle, rgba(224,80,69,1) 0%, rgba(77,32,52,1) 35%, rgba(21,22,42,1) 100%);
+    height: 600px;
+    background-color: #181a41;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,8 +126,9 @@ body{
 
 .container-projetos{
     width: 800px;
-    max-height: auto;
+    height: 500px;
     color: white;
+    margin-top: 15px;
 }
 
 .cards{
@@ -217,15 +217,15 @@ footer{
     .main{
         height:300px
     }
-    .logo, .menu{
-        width: 50%;
+    .logo{
+        width: 100%;
     }
     .menu{
-        justify-content: end;
+        display: none;
     }
 
     .apresentacao{
-        max-width: auto;
+        max-width: 95%;
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -245,9 +245,14 @@ footer{
 
     .projetos{
         max-width: auto;
-        height: 1100px;
+        height: 1150px;
+        justify-content: flex-start;
     }
+    .container-projetos{
+        height: 900px;
+        flex-direction: column;
 
+    }
     .cards{
         height: 900px;
     }
