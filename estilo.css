@@ -27,36 +27,18 @@ body{
 }
 
 .logo{
-    width: 33%;
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-}
-.menu{
-    width: 33%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.menu li{
-    list-style: none;
-    border: none;
-}
-
-.menu a{
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
+    justify-content: center;
 }
 
 
 .main{
     max-width: auto;
-    height: 50vh;
+    height: 30vh;
     
     display: flex;
     justify-content: center;
@@ -66,8 +48,9 @@ body{
 
 .apresentacao{
     width: 800px;
-    height: 30vh;
+    height: 20vh;
     color: white;
+    text-align: center;
 }
 
 .links-btn button{
@@ -102,6 +85,7 @@ body{
     display: flex;
     align-items:start;
     justify-content: center;
+    text-align: center;
 }
 
 .sobre h1{
@@ -122,6 +106,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .container-projetos{
