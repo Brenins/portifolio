@@ -53,12 +53,12 @@ body{
     text-align: center;
 }
 
-.links-btn button{
+.links-btn a{
     padding-left: 10px;
     color:white;
 }
 
-.links-btn button:hover{
+.links-btn a:hover{
     background:#87333b80;
     color: lightsalmon;
 }
